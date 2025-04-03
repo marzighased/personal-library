@@ -77,3 +77,37 @@ body {
     background-color: rgba(0, 0, 0, 0.08);
     font-size: 16px;
 }
+
+.filters {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+}
+
+.filters span {
+    margin-right: 15px;
+    font-weight: 600;
+}
+
+.filter-buttons {
+    display: flex;
+}
+
+.filter-btn {
+    background-color: #f9f9f9;
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    padding: 6px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.filter-btn.active {
+    background-color: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
