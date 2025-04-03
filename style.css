@@ -111,3 +111,22 @@ body {
     color: white;
     border-color: var(--primary-color);
 }
+
+.books-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    min-height: 300px;
+    background-color: white;
+    box-shadow: var(--box-shadow);
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.footer {
+    text-align: right;
+    padding: 15px 20px;
+    color: #777;
+    font-size: 14px;
+}
