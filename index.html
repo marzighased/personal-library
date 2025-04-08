@@ -36,6 +36,46 @@
             <span id="total-stats">Total Books: 0 | Read: 0 | Remaining: 0</span>
         </div>
     </footer>
+
+    <div class="modal" id="add-book-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Add New Book</h2>
+                <span class="close-modal">&times;</span>
+            </div>
+            <div class="modal-body">
+                <form id="add-book-form">
+                    <div class="form-group">
+                        <label for="book-title">Book Title</label>
+                        <input type="text" id="book-title" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="book-author">Author</label>
+                        <input type="text" id="book-author" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="book-genre">Genre</label>
+                        <input type="text" id="book-genre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="book-year">Publication Year</label>
+                        <input type="text" id="book-year" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="book-image">Book Cover (URL)</label>
+                        <input type="text" id="book-image" required>
+                    </div>
+                    <div class="form-group" checkbox-group>
+                        <label for="book-read">
+                            <input type="checkbox" id="book-read">
+                            Read
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Save</button>
+                </form>
+            </div>
+        </div>
+    </div>
     
 
 
