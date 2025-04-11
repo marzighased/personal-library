@@ -178,3 +178,11 @@ body {
 .modal-body {
     padding: 20px;
 }
+
+.book-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: var(--box-shadow);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
