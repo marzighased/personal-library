@@ -7,3 +7,12 @@ function Book(title, author, genre, year, image = '', read = false) {
     this.read = read;
     this.id = Date.now().toString();
 }
+
+let myLibrary = [];
+
+function addBookToLibrary(book) {
+    myLibrary.push(book);
+    saveBooks();
+    renderBooks();
+    updateStats();
+}
